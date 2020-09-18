@@ -21,13 +21,15 @@ public class AppWeb {
 	 */
 	public static void main(String[] args) {
 		port(getPort());
-		staticFiles.location("/public");
+		
+		HTTPServices httpServices = new HTTPServices();
 		post("/calculadora", (request, response) -> {
 			
-			Calculadora c = new Calculadora();
-			c.leerJson(request.body());
-			
-			return "{\"media\":" + c.mean() + ", \"desviacion\":" + c.stddev() + "}";
+			httpServices.insertar(request.body());
+			return "{\"media\":OK , \"desviacion\":OK}";
+		});
+		get("/registros", (request, response) -> {
+			return httpServices.getData();
 		});
 		
 	}

@@ -3,13 +3,23 @@ version: '3'
  
 
 services:
+    loadbalancer:
+       build:
+         context: ../LoadBalancer
+         dockerfile: Dockerfile
+       depends_on:
+         - web
+       container_name: loadbalancer-arep
+       ports:
+            - "8080:6000"
     web:
         build:
-            context: ../
+            context: ../APP
             dockerfile: Dockerfile
-        container_name: web
+        depends_on:
+            - db
         ports:
-            - "8087:6000"
+            - "8087-8089:6000"
     db:
         image: mongo:latest
         container_name: arep-mongo-db2
