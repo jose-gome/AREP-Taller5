@@ -1,46 +1,25 @@
-# Calculadora Basica De Estadistica
+# Modularizacion con virtualizaci ´ on con docker y aws
 
-Esta aplicación soluciona algunos cálculos de estadística que son:
-  - Promedio de n datos
-  - Derivación estándar de n datos
-Esta con la estructura Maven y una implantación de un linked list para el almacenamiento de los datos
-
-#
+En esta aplicación encontraremos un servicio de guardado de mensajes en una base de datos no relacional utilizando tecnologías como Docker y AWS. 
+# Arquitectura
+La arquitectura realizada:
+![](/Img/Arquitectura.png)
+# Aplicativo
+A continuación observaremos las imágenes del aplicativo.
+![](/Img/Aplicativo.png)
+![](/Img/info.png)
 
 # Pre-requisitos
   -Java SE Development Kit 8
   -Java SE Runtime Environment 8
   -Apache Maven.
-
-# Instalación
-Copiaremos la aplicación en nuestra maquina local con el siguiente comando
-```sh
-$ git clone https://github.com/jose-gome/AREP-Calculadora-estadistica.git
- ```
-Ahora compilaremos y empaquetaremos con el siguiente comando
-```sh
-$ mvn package 
-```
-Para ejecuta la aplicación:
-```sh
-$ mvn exec:java -Dexec.mainClass="edu.escuelaing.arem.ASE.app.AppWeb"
-```
-[Aplicación](https://morning-chamber-39299.herokuapp.com/) en funcionamiento
-# Ejecutando pruebas
-Para ejecutar las pruebas automatizadas utilizaremos el siguiente comando.
-```sh
-$ mvn test 
-```
-# Generar Javadoc
-
-```sh
-$ mvn javadoc:javadoc 
-```
-# Integracion Continua
-[![CircleCI](https://circleci.com/gh/jose-gome/AREP-2020-1-Calculadora-estadistica.svg?style=svg)](https://circleci.com/gh/jose-gome/AREP-2020-1-Calculadora-estadistica)
+  -Docker
+  
 # Construido con
   - [Maven](https://maven.apache.org/) - Dependency Management
   - [SPARK](http://sparkjava.com/) Framework para desarrollar aplicaciones web
+  - [Docker](https://www.docker.com/)
+  - [AWS](https://aws.amazon.com/es/free/?all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc&awsf.Free%20Tier%20Categories=categories%23compute&trk=ps_a134p000003yhPDAAY&trkCampaign=acq_paid_search_brand&sc_channel=ps&sc_campaign=acquisition_LATAMO&sc_publisher=google&sc_category=mult&sc_country=LATAMO&sc_geo=LATAM&sc_outcome=Acquisition&sc_detail=amazon%20cloud%20services&sc_content=Cloud%20Compute_e&sc_matchtype=e&sc_segment=453309460936&sc_medium=ACQ-P|PS-GO|Brand|Desktop|SU|AWS|Solution|LATAMO|EN|Text&s_kwcid=AL!4422!3!453309460936!e!!g!!amazon%20cloud%20services&ef_id=Cj0KCQjwnqH7BRDdARIsACTSAduUFCe3wHlxRIYwBw1NAef7CenQVP8EScWwoqDKeQ-XU-uT9fK56uEaArXgEALw_wcB:G:s&s_kwcid=AL!4422!3!453309460936!e!!g!!amazon%20cloud%20services) 
  
 # Autores
   - José Luis Gómez Camacho - Estudiante de la Escuela Colombiana De Ingeniería Julio Garavito
