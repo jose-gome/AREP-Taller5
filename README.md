@@ -1,4 +1,4 @@
-# Modularizacion con virtualizaci ´ on con docker y aws
+# Modularizacion con virtualizacion con docker y aws
 
 En esta aplicación encontraremos un servicio de guardado de mensajes en una base de datos no relacional utilizando tecnologías como Docker y AWS. 
 # Arquitectura
