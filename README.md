@@ -8,8 +8,6 @@ La arquitectura realizada:
 A continuación observaremos las imágenes del aplicativo.
 ![](/Img/Aplicativo.png)
 ![](/Img/info.png)
-La arquitectura realizada:
-![](/Img/Arquitectura.png)
 
 # Pre-requisitos
   -Java SE Development Kit 8
