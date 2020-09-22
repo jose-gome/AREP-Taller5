@@ -5,9 +5,12 @@ En esta aplicación encontraremos un servicio de guardado de mensajes en una bas
 La arquitectura realizada:
 ![](/Img/Arquitectura.png)
 # Aplicativo
-A continuación observaremos las imágenes del aplicativo.
+A continuación observaremos las imágenes del [aplicativo](http://ec2-3-83-244-7.compute-1.amazonaws.com:8080/).
 
 ![](/Img/Aplicativo.png)
+
+[Registros](http://ec2-3-83-244-7.compute-1.amazonaws.com:8080/registros)
+
 ![](/Img/info.png)
 
 # Pre-requisitos
