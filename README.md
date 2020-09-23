@@ -18,7 +18,9 @@ A continuación observaremos las imágenes del [aplicativo](http://ec2-3-83-244-
   -Java SE Runtime Environment 8
   -Apache Maven.
   -Docker
-  
+# Integracion continua
+[![CircleCI](https://circleci.com/gh/Web-Taller5.svg?style=svg)](https://circleci.com/gh/Web-Taller5)
+[![CircleCI](https://circleci.com/gh/jose-gome/Load-Balancer-Taller5?style=svg)](https://circleci.com/gh/jose-gome/Load-Balancer-Taller5)
 # Construido con
   - [Maven](https://maven.apache.org/) - Dependency Management
   - [SPARK](http://sparkjava.com/) Framework para desarrollar aplicaciones web
