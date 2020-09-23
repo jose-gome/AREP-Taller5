@@ -1,12 +1,16 @@
-# Modularizacion con virtualizaci ´ on con docker y aws
+# Modularizacion con virtualizacion con docker y aws
 
 En esta aplicación encontraremos un servicio de guardado de mensajes en una base de datos no relacional utilizando tecnologías como Docker y AWS. 
 # Arquitectura
 La arquitectura realizada:
 ![](/Img/Arquitectura.png)
 # Aplicativo
-A continuación observaremos las imágenes del aplicativo.
+A continuación observaremos las imágenes del [aplicativo](http://ec2-3-83-244-7.compute-1.amazonaws.com:8080/).
+
 ![](/Img/Aplicativo.png)
+
+[Registros](http://ec2-3-83-244-7.compute-1.amazonaws.com:8080/registros)
+
 ![](/Img/info.png)
 
 # Pre-requisitos
@@ -14,7 +18,9 @@ A continuación observaremos las imágenes del aplicativo.
   -Java SE Runtime Environment 8
   -Apache Maven.
   -Docker
-  
+# Integracion continua
+[![CircleCI](https://circleci.com/gh/jose-gome/Web-Taller5.svg?style=svg)](https://circleci.com/gh/jose-gome/Web-Taller5)
+[![CircleCI](https://circleci.com/gh/jose-gome/Web-Taller5.svg?style=svg)](https://circleci.com/gh/jose-gome/Load-Balancer-Taller5)
 # Construido con
   - [Maven](https://maven.apache.org/) - Dependency Management
   - [SPARK](http://sparkjava.com/) Framework para desarrollar aplicaciones web
